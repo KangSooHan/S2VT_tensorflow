@@ -1,5 +1,4 @@
 ## S2VT_tensorflow
-[HCIR](https://sites.google.com/view/hcir/home)
 
 ## Environment
   - Python3.6
