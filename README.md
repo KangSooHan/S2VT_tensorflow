@@ -6,5 +6,6 @@
   - Tensorflow 1.8.0
   
 # Directory Tree
-  * S2VT_tensorflow
+  S2VT_tensorflow
+  
   ![alt tag](https://github.com/KangSooHan/S2VT_tensorflow/blob/master/Directory.png)
