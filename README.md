@@ -11,20 +11,21 @@
   ![alt tag](https://github.com/KangSooHan/S2VT_tensorflow/blob/master/Directory.png)
   
 ## How To Run
- # 1. Download MSVD dataset in data/youtube_videos
-     [Dataset](http://www.cs.utexas.edu/users/ml/clamp/videoDescription/)
+  1. Download MSVD dataset in data/youtube_videos
+ 
+     [Dataset](http://www.cs.utexas.edu/users/ml/clamp/videoDescription)
   
- # 2. Extract Video Features
+  2. Extract Video Features
      $ python extract_RGB_feature.py
      
- # 3. Train model
+  3. Train model
      - run ipython
        $ CUDA_VISIBLE_DEVICES=0 ipython
        
      >>> import model_RGB
      >>> model_RGB.train()
 
- # 4. Test model
+  4. Test model
      - run ipython
        $ CUDA_VISIBLE_DEVICES=0 ipython
        
@@ -33,7 +34,7 @@
      
      You can change save model
      
- # 5. Evaluate with COCO
+  5. Evaluate with COCO
      - move S2VT_Description.txt, S2VT_results.txt to ./caption-eval
        mv S2VT_Description.txt, S2VT_results.txt to ./caption-eval
      
