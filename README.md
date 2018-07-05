@@ -42,6 +42,6 @@
        $python run_evaluations.py -i S2VT_results.txt -r S2VT_Description.json
 
 ## References
- # S2VT model by [chenxinpeng](https://github.com/chenxinpeng/S2VT)
- # Vgg model by [AlonDaks/tsa-kaggle](https://github.com/AlonDaks/tsa-kaggle)
+  S2VT model by [chenxinpeng](https://github.com/chenxinpeng/S2VT)
+  Vgg model by [AlonDaks/tsa-kaggle](https://github.com/AlonDaks/tsa-kaggle)
  
