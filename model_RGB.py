@@ -11,6 +11,7 @@ import time
 import cv2
 #from keras.preprocessing import sequence
 import pdb
+from sklearn.utils import shuffle
 
 class Video_Caption_Generator():
     def __init__(self, dim_image, n_words, dim_hidden, batch_size, n_lstm_step, n_video_lstm_step, n_caption_lstm_step, bias_init_vector=None):
@@ -175,6 +176,8 @@ def get_video_data(video_data_path, video_feat_path, train_ratio=0.9):
 
     unique_filenames = video_data['video_path'].unique()
     train_len = int(len(unique_filenames)*train_ratio)
+    
+    shuffle(unique_filenames)
 
     train_vids = unique_filenames[:train_len]
     test_vids = unique_filenames[train_len:]
